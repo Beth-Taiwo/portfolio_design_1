@@ -1,0 +1,69 @@
+
+.bg-black{
+background-color: black;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+.font-div{
+	width: 30%;
+}
+.profile-image{
+	height: 371px;
+	background-image: url("../img/beth4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+.small-screen-display{
+	display: none !important;
+	width: 80%;
+}
+@media only screen and (max-width:991px){
+	.font-div{
+		width: 25%;
+		/display: block;
+		padding: 5px !important;
+		font-size: 1em;
+	}
+	.place-icon{
+		display: block;
+		padding-top: 60px;
+		padding-right: 20px;
+		text-align: center;
+	}
+	.big-screen-display div{
+		display: none;
+	}
+	.small-screen-display{
+		display: block !important;
+	}
+	.small-screen-display .place-icon{
+		display: inline-block !important; 
+	}
+}
+@media only screen and(min-width:1199px){
+	.font-div{
+		padding: 50px 0px !important;
+	}
+	
+}
+
+
+.progressbar{
+	width: 95%;
+}
+.progressbar1{
+	width: 80%;
+}
+.progressbar2{
+	width: 25%;
+}
+.progressbar3{
+	width: 20%;
+}
+.progressbar4{
+	width: 30%;
+}
